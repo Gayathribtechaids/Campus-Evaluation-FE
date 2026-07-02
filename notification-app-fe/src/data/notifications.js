@@ -1,0 +1,42 @@
+export const notifications = [
+  {
+    id: 1,
+    title: "Zoho Campus Drive",
+    message: "Zoho placement registration closes today.",
+    category: "Placement",
+    isRead: false,
+    createdAt: "2026-07-02T10:30:00",
+  },
+  {
+    id: 2,
+    title: "Semester Result Published",
+    message: "Your semester results are now available.",
+    category: "Result",
+    isRead: false,
+    createdAt: "2026-07-02T09:15:00",
+  },
+  {
+    id: 3,
+    title: "React Workshop",
+    message: "React workshop starts tomorrow at 10 AM.",
+    category: "Event",
+    isRead: false,
+    createdAt: "2026-07-01T14:00:00",
+  },
+  {
+    id: 4,
+    title: "TCS Drive Update",
+    message: "TCS interview shortlist has been released.",
+    category: "Placement",
+    isRead: false,
+    createdAt: "2026-07-02T11:00:00",
+  },
+  {
+    id: 5,
+    title: "Hackathon Event",
+    message: "Register for the coding hackathon.",
+    category: "Event",
+    isRead: true,
+    createdAt: "2026-07-02T08:00:00",
+  },
+];
